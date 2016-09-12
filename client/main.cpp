@@ -8,7 +8,7 @@ int main(int argc, char **argv){
         std::cerr<<"[USAGE] "<<argv[0]<<" <server address>\n";
         return 0;
     }
-    std::cout<<"Starting Weirdcom Client version "<<VERSION<<"\n";
+    std::cout<<"Starting Dryad Client version "<<VERSION<<"\n";
 
     int socket;
     //Setup listening socket

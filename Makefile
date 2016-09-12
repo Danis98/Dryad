@@ -1,6 +1,6 @@
 #Application names
-APPNAME_CLIENT=weirdchat
-APPNAME_SERVER=weirdserv
+APPNAME_CLIENT=dryad
+APPNAME_SERVER=dryadserv
 
 #Code directories
 COMMON_DIR=common

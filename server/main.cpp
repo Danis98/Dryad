@@ -4,7 +4,7 @@
 #include <server_network.h>
 
 int main(){
-    std::cout<<"Starting up WeirdCom Server version "<<VERSION<<"\n";
+    std::cout<<"Starting up Dryad Server version "<<VERSION<<"\n";
 
     int socket;
     //Setup listening socket
@@ -12,9 +12,11 @@ int main(){
         exit(1);
     std::cout<<"Successfully set up socket, listening on port "<<PORT<<"...\n";
 
-    if(handle_connection(socket)==-1)
-        exit(1);
-    std::cout<<"Successfully handled message\n";
+    for(int i=0;i<10;i++){
+        if(handle_connection(socket)==-1)
+            exit(1);
+        std::cout<<"Successfully handled message\n";
+    }
 
     if(close_socket(socket)==-1){
         exit(1);

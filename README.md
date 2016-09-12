@@ -1,5 +1,5 @@
-# WeirdCom
-WeirdCom Server and Client
+# Dryad
+Dryad Server and Client
 
 ----------
 
